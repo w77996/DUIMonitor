@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- pressed -->
+    <item android:drawable="@drawable/remesure_btn_press" android:state_pressed="true" />
+    <!-- focused -->
+    <!-- <item android:drawable="@drawable/img_tvlanch_rbg_preessed" android:state_focused="true"/> -->
+    <!-- selected -->
+    <!-- <item android:drawable="@drawable/img_tvlanch_rbg_checked" android:state_selected="true"/>
+    <item android:drawable="@drawable/img_tvlanch_rbg_normal" android:state_selected="false"/> -->
+    <!-- normal -->
+    <item android:drawable="@drawable/remesure_btn_normal" />
+
+
+</selector>

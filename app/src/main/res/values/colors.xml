@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_333333">#333333</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_f4f4f4">#f4f4f4</color>
+    <color name="color_f3f3f3">#f3f3f3</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_F8FAFD">#F8FAFD</color>
+    <color name="color_929292">#929292</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_686868">#686868</color>
+    <color name="color_dfdfdf">#dfdfdf</color>
+    <color name="color_cacaca">#cacaca</color>
+    <color name="color_E9E9E9">#E9E9E9</color>
+    <color name="color_E4E4E4">#E4E4E4</color>
+    <color name="color_52c3f1">#52c3f1</color>
+    <color name="color_00000000">#00000000</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_014099">#014099</color>
+    <color name="color_ff861b">#ff861b</color>
+    <color name="color_505050">#505050</color>
+    <color name="color_034299">#034299</color>
+    <color name="color_3363AB">#3363AB</color>
+    <color name="color_007AFF">#007AFF</color>
+    <color name="black_70percent_alpha">#B3000000</color>
+    <color name="black_50percent_alpha">#80000000</color>
+    <color name="white_70percent_alpha">#B3ffffff</color>
+
+    <color name="white_5percent_alpha">#0Dffffff</color>
+    <color name="white_6percent_alpha">#0fffffff</color>
+    <color name="white_7percent_alpha">#11ffffff</color>
+    <color name="white_10percent_alpha">#1Affffff</color>
+    <color name="white_20percent_alpha">#33ffffff</color>
+    <color name="white_30percent_alpha">#4Cffffff</color>
+    <color name="white_40percent_alpha">#66ffffff</color>
+    <color name="color_40percent_4c6379">#664c6379</color>
+
+    <color name="white_45percent_alpha">#73ffffff</color>
+    <color name="white_50percent_alpha">#80ffffff</color>
+    <color name="white_55percent_alpha">#8Cffffff</color>
+    <color name="white_60percent_alpha">#99ffffff</color>
+    <color name="white_75percent_alpha">#C0ffffff</color>
+    <color name="white_80percent_alpha">#CCffffff</color>
+    <color name="white_90percent_alpha">#e5ffffff</color>
+
+    <color name="color_262b35">#262b35</color>
+    <color name="color_8890a9">#8890a9</color>
+    <color name="color_0068e7">#0068e7</color>
+    <color name="color_5b5d6c">#5b5d6c</color>
+    <color name="color_f0f0f0">#f0f0f0</color>
+
+    <color name="color_bec0d5">#bec0d5</color>
+    <color name="color_616690">#616690</color>
+    <color name="color_ff5a8f">#ff5a8f</color>
+    <color name="color_00d3e2">#00d3e2</color>
+    <color name="color_12a1f8">#12a1f8</color>
+    <color name="color_05a6ff">#05a6ff</color>
+    <color name="color_e1e9ff">#e1e9ff</color>
+    <color name="color_40percent_ffffff">#66ffffff</color>
+    <color name="color_1f82d0">#1f82d0</color>
+    <color name="color_f25b6e">#f25b6e</color>
+    <color name="color_1e82d0">#1e82d0</color>
+</resources>

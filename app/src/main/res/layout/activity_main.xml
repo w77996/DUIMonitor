@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_normal_list"
+    tools:context="com.w77996.duimonitor.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/measureRL"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+
+      >
+
+        <ImageView
+            android:id="@+id/bloodPressureIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/dial_bg" />
+
+        <ImageView
+            android:id="@+id/bloodPressureOutIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/bloodPressureInIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/pulseIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/pulse_measure_low" />
+
+        <TextView
+            android:id="@+id/measureStateTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/pulseIV"
+            android:text="- -"
+            android:textColor="@color/color_ffffff"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bloodpressureRL"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/measureRL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:id="@+id/blue_rec_data1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.26"
+            android:textColor="@color/color_ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/bloodpressureUnitTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/blue_rec_data1"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/blue_rec_data1"
+            android:text="mg/L"
+            android:textColor="@color/color_ffffff"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pulseRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bloodpressureRL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/blue_rec_data2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000"
+            android:textColor="@color/color_ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/pulseUnitTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/blue_rec_data2"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/blue_rec_data2"
+            android:text="m"
+            android:textColor="@color/color_ffffff"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/pulseStateIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/pulseUnitTV"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/measureResultBtnRL"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="设备未连接"
+                android:textColor="@color/color_ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/blue_btn_conn"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/selector_measure_btn"
+            android:gravity="center"
+            android:text="连接设备"
+            android:textColor="@color/color_measure_btn"
+            android:layout_marginRight="15dp"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/blue_btn_send"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_measure_btn"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="获取数据"
+            android:textColor="@color/color_measure_btn"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/blue_btn_disconn"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:background="@drawable/selector_measure_btn"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:text="断开连接"
+            android:textColor="@color/color_measure_btn"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
